@@ -15,10 +15,19 @@ namespace OnlineOrdering
             this.quantity = quantity;
         }
 
-        public double GetTotalCost() => price * quantity;
+        public double GetTotalCost()
+        {
+            return price * quantity;
+        }
 
-        public string GetName() => name;
+        public string GetName()
+        {
+            return name;
+        }
 
-        public string GetProductId() => productId;
+        public string GetProductId()
+        {
+            return productId;
+        }
     }
 }

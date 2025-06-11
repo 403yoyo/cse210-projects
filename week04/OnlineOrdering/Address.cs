@@ -15,8 +15,14 @@ namespace OnlineOrdering
             this.country = country;
         }
 
-        public bool IsDomestic() => country.ToUpper() == "NIGERIA";
+        public bool IsDomestic()
+        {
+            return country.ToUpper() == "USA";
+        }
 
-        public string GetFullAddress() => $"{street}\n{city}, {state}\n{country}";
+        public string GetFullAddress()
+        {
+            return $"{street}\n{city}, {state}\n{country}";
+        }
     }
 }

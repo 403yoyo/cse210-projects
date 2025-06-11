@@ -11,10 +11,19 @@ namespace OnlineOrdering
             this.address = address;
         }
 
-        public bool IsDomestic() => address.IsDomestic();
+        public bool IsDomestic()
+        {
+            return address.IsDomestic();
+        }
 
-        public string GetName() => name;
+        public string GetName()
+        {
+            return name;
+        }
 
-        public Address GetAddress() => address;
+        public Address GetAddress()
+        {
+            return address;
+        }
     }
 }
